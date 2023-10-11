@@ -14,6 +14,8 @@ export class CardComponent implements OnInit {
   gameType: string = 'Digital PS4';
   @Input()
   gamePrice: string = 'R$ 399,90';
+  @Input()
+  gameLink: string = '';
   constructor() {}
 
   ngOnInit(): void {}
